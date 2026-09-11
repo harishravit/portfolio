@@ -34,7 +34,7 @@ const routes = createBrowserRouter(
       ],
     },
   ],
-  { basename: "/my-portfolio" },
+  { basename: "/portfolio" },
 );
 createRoot(document.getElementById("root")!).render(
   <RouterProvider router={routes} />,
