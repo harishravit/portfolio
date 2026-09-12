@@ -10,7 +10,7 @@ export default function HomePage() {
       <Content />
       <Explore />
       <Skills />
-      <Experience />
+      {/* <Experience /> */}
       <SocialLinks />
     </>
   );
